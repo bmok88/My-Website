@@ -1,6 +1,18 @@
 var path = require('path');
+var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+var isProd = process.env.NODE_ENV === 'production'; //true or false
+var cssDev = ['style-loader', 'css-loader', 'sass-loader'];
+var cssProd = ExtractTextPlugin.extract({
+  fallback: 'style-loader',
+  loader: ['css-loader', 'sass-loader'],
+  publicPath: '/dist'
+});
+
+var cssConfig = isProd ? cssProd : cssDev;
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -11,29 +23,23 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'src'),
-        exclude: '/node_modules',
+        exclude: /node_modules/,
         loader: 'babel-loader',
-        query:
-        {
-          presets: ['react']
+        query: {
+          presets: ['es2015', 'react']
         }
       },
       {
         test: /\.scss?/,
-        loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style-loader',
-          loader: ['css-loader', 'sass-loader'],
-          publicPath: '/dist'
-        })
+        loader: cssConfig
       }
     ]
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000,
-    open: true
+    open: true,
+    hot: true
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -45,8 +51,10 @@ module.exports = {
     }),
     new ExtractTextPlugin({
       filename: 'app.css',
-      disable: false,
+      disable: !isProd,
       allChunks: true
-    })
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin()
   ]
 };

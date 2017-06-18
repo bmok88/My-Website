@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-const css = require('./app.scss');
+import css from './app.scss'
 
 class App extends React.Component {
   render() {
     return (
-      <div>Hello World</div>
+      <h1>Brendan's Website</h1>
     )
   }
 }

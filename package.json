@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
-    "prod": "webpack -p"
+    "dev": "webpack-dev-server",
+    "prod": "NODE_ENV=production webpack -p"
   },
   "repository": "https://github.com/bmok88/My-Website.git",
   "author": "Brendan Mok <bmok88@gmail.com>",
