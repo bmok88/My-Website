@@ -8,8 +8,10 @@ class App extends React.Component {
     return (
       <div>
         <div id="intro">
-          <h1>Brendan Mok</h1>
-          <p>-Software Engineer-</p>
+          <div id="snippet">
+            <h1 id="name">Brendan Mok</h1>
+            <p className="title">Software Engineer</p>
+          </div>
         </div>
         <hr />
         <Nav />

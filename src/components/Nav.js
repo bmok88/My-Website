@@ -10,8 +10,8 @@ class Nav extends React.Component {
             <li><Link to="/" style={{ textDecoration: 'none' }}>About Me</Link></li>
             <li><Link to="/" style={{ textDecoration: 'none' }}>Projects</Link></li>
             <li><Link to="/" style={{ textDecoration: 'none' }}>Contact</Link></li>
-            <li><Link to="/" style={{ textDecoration: 'none' }}><img src="http://imgur.com/BPgB3w6.png"/></Link></li>
-            <li><Link to="/" style={{ textDecoration: 'none' }}><img src="http://imgur.com/IoJNZPx.png"/></Link></li>
+            <li><a href="https://github.com/bmok88" style={{ textDecoration: 'none' }} target="_blank"><img src="http://imgur.com/BPgB3w6.png"/></a></li>
+            <li><a href="https://www.linkedin.com/in/brendan-mok/" style={{ textDecoration: 'none' }} target="_blank"><img src="http://imgur.com/IoJNZPx.png"/></a></li>
           </ul>
         </div>
       </BrowserRouter>
