@@ -38,9 +38,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Brendan\'s Website',
-      minify: {
-        collapseWhitespace: true
-      },
+      // minify: {
+      //   collapseWhitespace: true
+      // },
       template: './src/index.ejs' //Loads a custom html template(ejs by default)
     }),
     new ExtractTextPlugin({
