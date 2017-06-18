@@ -1,0 +1,8 @@
+node_modules/
+client/public/bundle.js
+bower_components/
+*.log
+build/
+dist/
+**/.DS_Store
+yarn.lock
