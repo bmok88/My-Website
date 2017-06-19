@@ -15,12 +15,39 @@ class App extends React.Component {
             <p id="title">Software Engineer</p>
           </div>
           <div id="icons">
-            <div id="logos">
+            <div className="user">
               <div className="glyphicon glyphicon-user">
                 <div className="label">About Me</div>
               </div>
             </div>
-
+            <div className="briefcase">
+              <div className="glyphicon glyphicon-briefcase">
+                <div className="label">Applications</div>
+              </div>
+            </div>
+            <div className="education">
+              <div className="glyphicon glyphicon-education">
+                <div className="label">Technical Skills</div>
+              </div>
+            </div>
+            <div className="folder">
+              <div className="glyphicon glyphicon-folder-open">
+                <div className="label">Resume</div>
+              </div>
+            </div>
+            <div className="github">
+              <img src="images/GitHub-Mark-Light-64px.png" height="80" width="80"/>
+              <div className="label">GitHub</div>
+            </div>
+            <div className="linkedin">
+              <img src="images/In-White-66px-R.png" height="70" width="85"/>
+              <div className="label">LinkedIn</div>
+            </div>
+            <div className="comment">
+              <div className="glyphicon glyphicon-comment">
+                <div className="label">Contact</div>
+              </div>
+            </div>
           </div>
         </div>
         <Nav />

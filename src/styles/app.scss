@@ -49,11 +49,80 @@ body {
     color: white;
   }
 
-  #logos {
-    width: 25%;
+  .user {
+    width: 20%;
     height: 40%;
     position: absolute;
-    display: inline-block;
+    display: block;
+    left: -3%;
+  }
+
+  .briefcase {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    display: block;
+    left: 13%;
+  }
+
+  .education {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    display: block;
+    left: 30%;
+  }
+
+  .folder {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    display: block;
+    left: 45%;
+  }
+
+  .github {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    display: block;
+    left: 65%;
+  }
+
+  .github .label {
+    display: block;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: -.8%;
+    padding-bottom: 50%;
+    position: absolute;
+    top: 70%;
+  }
+
+  .linkedin {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    display: block;
+    margin: .5% 0 0 0;
+    left: 78%;
+  }
+
+  .linkedin .label {
+    display: block;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: -7%;
+    position: absolute;
+    top: 66%;
+  }
+
+  .comment {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    display: block;
+    left: 85%;
   }
 
   div .glyphicon{
