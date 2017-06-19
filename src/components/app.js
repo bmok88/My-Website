@@ -14,8 +14,15 @@ class App extends React.Component {
             <div id="name">Brendan Mok</div>
             <p id="title">Software Engineer</p>
           </div>
+          <div id="icons">
+            <div id="logos">
+              <div className="glyphicon glyphicon-user">
+                <div className="label">About Me</div>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <hr />
         <Nav />
         <AboutMe />
         <Applications />

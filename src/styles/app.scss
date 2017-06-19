@@ -25,7 +25,7 @@ body {
     width: 100%;
     text-align: center;
     border: 8px solid white;
-    padding: 6% 0 6% 0;
+    padding: 5% 0 5% 0;
     font-size: 5em;
     display: inline-block;
   }
@@ -37,6 +37,35 @@ body {
     top: 50%;
     color: white;
     font-size: 2em;
+    padding: 1% 0 0 0;
+  }
+
+  #icons {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: 25%;
+    bottom: 10%;
+    color: white;
+  }
+
+  #logos {
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  div .glyphicon{
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+  }
+
+  .label {
+    display: block;
+    font-size: 30%;
+    text-align: center;
   }
 
   .descrip {
@@ -51,6 +80,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    padding: 1% 0 0 0;
   }
 
   ul  {
