@@ -2,15 +2,20 @@ body {
   width: 100%;
   background-color: white;
   position: relative;
+  height: 100%;
 
-  #intro {
+  #home {
     width: 100%;
-    padding-bottom: 40%;
+    padding-bottom: 54%;
+    background-image: url("http://i.imgur.com/SIk9LkV.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   #snippet {
     position: absolute;
-    right: 20%;
+    right: 8%;
     top: 30%;
     width: 30%;
     height: 30%;
@@ -19,31 +24,65 @@ body {
   h1 {
     color: black;
     position: absolute;
-    display: inline-block;
+    display:  block;
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
   }
 
  .title {
     position: absolute;
-    display: block;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 22%;
+  }
+
+  .descrip {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+  }
+
+  #nav {
     width: 100%;
     margin: 0 auto;
+    position: relative;
   }
 
   ul  {
     width: 100%;
     margin: 0 auto;
+    position: absolute;
+    left: 25%;
   }
 
   li {
     text-decoration: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 10px;
     float: left;
-    width: 4em;
+    width: 10%;
   }
 
   li img {
-    max-width: 100%;
+    max-width: 50%;
     padding-bottom: 20px;
+  }
+
+  #git {
+    margin-top: -1.5px;
+    width: 8%;
+  }
+
+  #linkedin {
+    max-width: 60%;
+    margin-top: 1px;
+  }
+
+  #applications a img {
+    max-width: 33%;
   }
 }
