@@ -3,13 +3,13 @@ import React from 'react'
 class Contact extends React.Component {
   render() {
     return(
-      <div>
+      <div id="contact">
         <h3>Contact</h3>
-        <p>Want to get in touch? I would love to collaborate on projects or just talk code or anything. Feel free to shoot me an e-mail.</p>
+        <p>Want to get in touch? Looking for a partner to collaborate with on your next project? Feel free to shoot me an e-mail.</p>
         <div>bmok88@gmail.com</div>
       </div>
     )
   }
 }
 
-export default Contact
+export default Contact;
