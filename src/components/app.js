@@ -27,7 +27,7 @@ class App extends React.Component {
             </div>
             <div className="education">
               <div className="glyphicon glyphicon-education">
-                <div className="label">Technical Skills</div>
+                <div className="label">Skills</div>
               </div>
             </div>
             <div className="folder">
@@ -36,11 +36,11 @@ class App extends React.Component {
               </div>
             </div>
             <div className="github">
-              <img src="images/GitHub-Mark-Light-64px.png" height="80" width="80"/>
+              <img src="images/GitHub-Mark-Light-64px.png" height="75" width="75"/>
               <div className="label">GitHub</div>
             </div>
             <div className="linkedin">
-              <img src="images/In-White-66px-R.png" height="70" width="85"/>
+              <img src="images/In-White-66px-R.png" height="65" width="80"/>
               <div className="label">LinkedIn</div>
             </div>
             <div className="comment">

@@ -3,6 +3,7 @@ body {
   background-color: white;
   position: relative;
   height: 100%;
+  font-family: 'Poppins', sans-serif;
 
   #home {
     width: 100%;
@@ -62,7 +63,7 @@ body {
     height: 40%;
     position: absolute;
     display: block;
-    left: 13%;
+    left: 14.3%;
   }
 
   .education {
@@ -70,7 +71,7 @@ body {
     height: 40%;
     position: absolute;
     display: block;
-    left: 30%;
+    left: 28.6%;
   }
 
   .folder {
@@ -78,7 +79,7 @@ body {
     height: 40%;
     position: absolute;
     display: block;
-    left: 45%;
+    left: 42.9%;
   }
 
   .github {
@@ -86,17 +87,17 @@ body {
     height: 40%;
     position: absolute;
     display: block;
-    left: 65%;
+    left: 63.2%;
   }
 
   .github .label {
     display: block;
     font-size: 1.3em;
     text-align: left;
-    margin-left: -.8%;
+    margin-left: -2.5%;
     padding-bottom: 50%;
     position: absolute;
-    top: 70%;
+    top: 69%;
   }
 
   .linkedin {
@@ -105,7 +106,7 @@ body {
     position: absolute;
     display: block;
     margin: .5% 0 0 0;
-    left: 78%;
+    left: 77.5%;
   }
 
   .linkedin .label {
@@ -114,7 +115,7 @@ body {
     text-align: left;
     margin-left: -7%;
     position: absolute;
-    top: 66%;
+    top: 64%;
   }
 
   .comment {
@@ -122,7 +123,7 @@ body {
     height: 40%;
     position: absolute;
     display: block;
-    left: 85%;
+    left: 84.8%;
   }
 
   div .glyphicon{
@@ -135,6 +136,7 @@ body {
     display: block;
     font-size: 30%;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
   }
 
   .descrip {
