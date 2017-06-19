@@ -35,7 +35,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 50%;
+    top: 55.5%;
     color: white;
     font-size: 2em;
     padding: 1% 0 0 0;
@@ -154,37 +154,59 @@ body {
     padding: 1% 0 0 0;
   }
 
-  ul  {
+  #me {
     width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    left: 25%;
+    text-align: center;
+    background-color: grey;
   }
 
-  li {
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 10px;
-    float: left;
-    width: 10%;
+  #me p {
+    width: 40%;
+    left: 30%;
+    position: relative;
+    margin-bottom: -.1%;
+    padding-bottom: 3%;
   }
 
-  li img {
-    max-width: 50%;
-    padding-bottom: 20px;
+  #applications {
+    width: 100%;
+    padding-top: 3%;
+    background-color: orange;
+    text-align: center;
   }
 
-  #git {
-    margin-top: -1.5px;
-    width: 8%;
-  }
-
-  #linkedin {
-    max-width: 60%;
-    margin-top: 1px;
+  #applications p {
+    width: 40%;
+    left: 30%;
+    position: relative;
+    margin-bottom: -.1%;
+    padding-bottom: 3%;
   }
 
   #applications a img {
     max-width: 33%;
+  }
+
+  #skills {
+    width: 100%;
+    text-align: center;
+    background-color: tan;
+    height: 400px;
+    position: absolute;
+  }
+
+  #abilities {
+    display: inline-block;
+    width: 30%;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+  }
+
+  #technologies {
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    top: 25%;
   }
 }

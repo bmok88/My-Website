@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link, Router, Route, BrowserRouter } from 'react-router-dom'
 import css from '../styles/app.scss'
-import Nav from './Nav'
 import AboutMe from './Aboutme'
 import Applications from './Applications'
 import Contact from './Contact'
+import Skills from './Skills'
+
 class App extends React.Component {
   render() {
     return (
@@ -50,10 +51,10 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <Nav />
         <AboutMe />
         <Applications />
-        <Contact />
+        <Skills />
+
       </div>
     )
   }
