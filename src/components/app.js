@@ -11,9 +11,8 @@ class App extends React.Component {
       <div>
         <div id="home">
           <div id="snippet">
-            <h1 id="name">Brendan Mok</h1>
-            <p className="title">Software Engineer</p>
-            <p className="descrip">Welcome to my island in this sea of computers we call the Internet!</p>
+            <div id="name">Brendan Mok</div>
+            <p id="title">Software Engineer</p>
           </div>
         </div>
         <hr />
