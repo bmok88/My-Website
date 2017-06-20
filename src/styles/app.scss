@@ -345,18 +345,56 @@ body {
     text-align: center;
     background-color: grey;
     overflow: hidden;
-  }
-
-  #me img {
-    float: left;
+    padding-bottom: 6%;
+    padding-top: 6%;
   }
 
   #me p {
-    width: 40%;
-    left: 30%;
-    position: relative;
-    margin-bottom: -.1%;
-    padding-bottom: 20%;
+    width: 20%;
+    left: 10%;
+    position: absolute;
+    top: 36%;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  #me h2 {
+    left: 10%;
+    width: 20%;
+    position: absolute;
+    top: 34%;
+  }
+
+  #contact {
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    overflow: hidden;
+  }
+
+  #contact p {
+    width: 20%;
+    right: 10%;
+    position: absolute;
+    top: 36%;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  #contact div {
+    width: 20%;
+    right: 10%;
+    position: absolute;
+    padding-top: 2%;
+    top: 40%;
+    font-size: 1.3em;
+  }
+
+  #contact h2 {
+    right: 10%;
+    width: 20%;
+    position: absolute;
+    top: 34%;
   }
 
   #applications {
@@ -399,14 +437,5 @@ body {
     width: 10%;
     position: absolute;
     top: 25%;
-  }
-
-  #contact {
-    width: 100%;
-    height: 200px;
-    position: relative;
-    margin-top: -2%;
-    top: 200px;
-    background-color: lightblue;
   }
 }

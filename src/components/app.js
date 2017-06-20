@@ -3,7 +3,6 @@ import { Link, Router, Route, BrowserRouter } from 'react-router-dom'
 import css from '../styles/app.scss'
 import AboutMe from './Aboutme'
 import Applications from './Applications'
-import Contact from './Contact'
 import Skills from './Skills'
 import Interests from './Interests'
 
@@ -66,9 +65,6 @@ class App extends React.Component {
         <Interests />
         <Applications />
         <Skills />
-
-          <Contact />
-
       </div>
     )
   }
