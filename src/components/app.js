@@ -53,7 +53,7 @@ class App extends React.Component {
               <div className="label">LinkedIn</div>
             </div>
             <div className="comment">
-            <a href="#contact">
+            <a href="#me">
               <div className="glyphicon glyphicon-comment">
                 <div className="label">Contact</div>
               </div>

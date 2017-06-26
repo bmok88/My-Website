@@ -10,7 +10,11 @@ body {
     width: 100%;
     padding-bottom: 54%;
     position: relative;
-    background-color: black;
+    background-image: url("https://www.arcwebsmac.com/wp-content/themes/arcwebsmac/images/portfolio-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   #snippet {
@@ -53,6 +57,7 @@ body {
 
   a {
     color: inherit;
+    scroll-behavior: smooth;
   }
 
   .user {
@@ -343,15 +348,14 @@ body {
   #me {
     width: 100%;
     text-align: center;
-    background-color: grey;
     overflow: hidden;
     padding-bottom: 6%;
     padding-top: 6%;
   }
 
   #me p {
-    width: 20%;
-    left: 10%;
+    width: 25%;
+    left: 7.5%;
     position: absolute;
     top: 36%;
     font-size: 1.3em;
@@ -400,7 +404,6 @@ body {
   #applications {
     width: 100%;
     padding-top: 3%;
-    background-color: orange;
     text-align: center;
   }
 
@@ -419,7 +422,6 @@ body {
   #skills {
     width: 100%;
     text-align: center;
-    background-color: tan;
     height: 200px;
     position: absolute;
   }
