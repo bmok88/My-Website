@@ -3,7 +3,6 @@ import { Link, Router, Route, BrowserRouter } from 'react-router-dom'
 import css from '../styles/app.scss'
 import AboutMe from './Aboutme'
 import Applications from './Applications'
-import Skills from './Skills'
 import Interests from './Interests'
 
 class App extends React.Component {
@@ -62,9 +61,9 @@ class App extends React.Component {
           </footer>
         </div>
         <AboutMe />
+        <hr />
         <Interests />
         <Applications />
-        <Skills />
       </div>
     )
   }
