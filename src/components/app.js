@@ -29,9 +29,9 @@ class App extends React.Component {
             </a>
             </div>
             <div className="icon education">
-            <a href="#skills">
+            <a href="#resume">
               <div className="glyphicon glyphicon-education"></div>
-              <div className="label">Skills</div>
+              <div className="label">Resume</div>
             </a>
             </div>
             <div className="icon paperclip">
@@ -57,6 +57,9 @@ class App extends React.Component {
             </a>
             </div>
           </div>
+          <footer>
+            &#169; Brendan Mok
+          </footer>
         </div>
         <AboutMe />
         <Interests />
