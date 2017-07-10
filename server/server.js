@@ -22,6 +22,10 @@ connection.connect(err => {
   console.log('Database connected');
 });
 
+app.get('/', function(req, res) {
+  res.sendStatus(200);
+});
+
 const port = process.env.PORT || 9999;
 app.listen(port, () => {
   console.log('Website server is up!')
