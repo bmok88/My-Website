@@ -42,12 +42,12 @@ class App extends React.Component {
               </a>
             </div>
             <div className="icon github">
-              <a href="https://github.com/bmok88"><img src="images/GitHub-Mark-Light-64px.png" className="glyphicon github"/>
+              <a href="https://github.com/bmok88" target="_blank"><img src="images/GitHub-Mark-Light-64px.png" className="glyphicon github"/>
                 <div className="label">GitHub</div>
               </a>
             </div>
             <div className="icon linkedin">
-              <a href="https://www.linkedin.com/in/brendan-mok/"><img src="images/In-White-66px-R.png" className="glyphicon linkedin"/>
+              <a href="https://www.linkedin.com/in/brendan-mok/" target="_blank"><img src="images/In-White-66px-R.png" className="glyphicon linkedin"/>
                 <div className="label">LinkedIn</div>
               </a>
             </div>
