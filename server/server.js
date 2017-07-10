@@ -22,7 +22,7 @@ connection.connect(err => {
   console.log('Database connected');
 });
 
-const port = 9999;
+const port = process.env.port || 9999;
 app.listen(port, () => {
   console.log('Website server is up!')
 });
