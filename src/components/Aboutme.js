@@ -3,18 +3,12 @@ import React from 'react'
 const AboutMe = () => (
   <div>
     <div id="me">
-      <h2>My Story</h2>
-      <p> Hey, welcome to my website! This site is the first solo project I've done, and I've gotta say, it was incredibly fun to build. Hope you enjoy. <br />
-          A pre-med student turned software engineer, I have a special desire in creating software that can attract millions of users and greatly benefit society. My primary focus is the front end because I naturally like to make things look aesthetically pleasing, but I have full stack experience and eventually want to focus more on the back end. In an alternate universe, I would be in med school right now, but alas, here I am.<br />
-        -Brendan
-      </p>
-      <img src="images/LinkedI-picture.jpeg" width="20%"/>
-    </div>
-    <div id="contact">
-      <h2>Contact</h2>
-      <p>Looking for another project partner to collaborate with? Got an opportunity you think I might be interested in? Feel free to reach out via call, text, or Email. I'd love to have a conversation.</p>
-      <div>Phone: (650) 455-6931 <br/>
-      Email: bmok88@gmail.com</div>
+      <div id="story">My Story</div>
+      <img src="images/LinkedI-picture.jpeg" className="selfie" width="20%"/>
+      <p>   A former pre-med student turned software engineer, I love all things JavaScript, basketball, outdoors, and food. I discovered my passion for programming after taking it up as a side hobby and realizing that I could create whatever I wanted with limitless possibilities. I also thoroughly enjoy how programming challenges you to look at a problem from different angles and to think through algorithms in different ways.</p>
+      <br/>
+      <p>
+        Currently, my primary focus is the front end because I derive satisfaction from creating beautiful user interfaces and aesthetically pleasing web apps to deliver the best user experience. However, I'm keen on the full stack as well and take pleasure in back end development. If you or a friend knows of an opportunity that you think I might be interested in, please don't hesistate to reach out. I'm always open to chatting about anything!</p>
     </div>
   </div>
 );
