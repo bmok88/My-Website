@@ -10,11 +10,11 @@ app.use(express.static(path.join(__dirname, '../dist')));
 
 const connection = mysql.createConnection({
   connectionLimit: '10',
-  host: 'localhost',
-  user: 'root',
-  password: 'Lbj08151992',
-  database: 'brendan_mok',
-  port: '3306'
+  host: process.env.HOST || 'localhost',
+  user: process.env.USERNAME || 'root',
+  password: process.env.PASSWORD || 'Lbj08151992',
+  database: process.env.DATABASE ||'brendan_mok',
+  port: process.env.PORT || '3306'
 });
 
 connection.connect(err => {
@@ -22,7 +22,14 @@ connection.connect(err => {
   console.log('Database connected');
 });
 
-const port = process.env.port || 9999;
+app.get('/', function(request, response) {
+    var result = 'App is running';
+    response.send(result);
+}).listen(app.get('port'), function() {
+    console.log('App is running, server is listening on port ', app.get('port'));
+});
+
+const port = process.env.PORT || 9999;
 app.listen(port, () => {
   console.log('Website server is up!')
 });
