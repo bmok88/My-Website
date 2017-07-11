@@ -11,7 +11,7 @@ const Interests = () => (
     <div className="logo js">
        <div><img src="https://s3-us-west-1.amazonaws.com/brendanmok.herokuapp.com/js_logo.png" /></div>
       <p className="interest">JavaScript</p>
-      <p>Understanding the finest details of this powerful language and utilizing it to create web apps, design algorithms, and produce server-side code.</p>
+      <p>Understanding the finest details of this powerful language and utilizing it to create web apps, design algorithms, and develop server-side code.</p>
     </div>
     <div className="logo api">
        <div><img src="https://s3-us-west-1.amazonaws.com/brendanmok.herokuapp.com/api_logo.png" /></div>
