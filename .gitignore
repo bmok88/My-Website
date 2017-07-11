@@ -4,3 +4,4 @@ bower_components/
 build/h
 **/.DS_Store
 yarn.lock
+dist/bundle.js
