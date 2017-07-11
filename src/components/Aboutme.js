@@ -4,7 +4,7 @@ const AboutMe = () => (
   <div>
     <div id="me">
       <div id="story">My Story</div>
-      <img src="images/LinkedI-picture.jpeg" className="selfie" width="20%"/>
+      <img src="LinkedI-picture.jpeg" className="selfie" width="20%"/>
       <p>   A former pre-med student turned software engineer, I love all things JavaScript, basketball, outdoors, and food. I discovered my passion for programming after taking it up as a side hobby and realizing that I could create whatever I wanted with limitless possibilities. I also thoroughly enjoy how programming challenges you to look at a problem from different angles and to think through algorithms in different ways.</p>
       <br/>
       <p>

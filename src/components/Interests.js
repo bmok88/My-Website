@@ -19,7 +19,7 @@ const Interests = () => (
       <p>Developing RESTful API's with best practices such as RESTful URL's and actions, query parameters, HTTP status codes, JSON, caching, and appropriate headers.</p>
     </div>
     <div className="logo system">
-      <div><img src="images/Webalys-Kameleon.pics-Graph-Magnifier (1).ico" /></div>
+      <div><img src="Webalys-Kameleon.pics-Graph-Magnifier (1).ico" /></div>
       <p className="interest">System Design</p>
       <p>Architecting smart, scalable designs to common problems and bottlenecks that provide creative solutions from the client to server to database.</p>
     </div>

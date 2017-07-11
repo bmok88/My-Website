@@ -16,7 +16,7 @@ class Applications extends React.Component {
       <div id="applications">
         <div id="applications-header">Full Stack Applications</div>
           <div className="app" ref="gauntlet">
-            <div className="app image"><img src="images/Gauntlet.png"/></div>
+            <div className="app image"><img src="Gauntlet.png"/></div>
             <button id="view" className="btn btn-default" onClick={() => this.handleButtonClick("gaunt")}>View</button>
             <a href="https://github.com/bmok88/TheGauntlet" target="_blank"><button id="git" className="btn btn-default">Github</button></a>
             <p className="apptitle">The Gauntlet</p>
