@@ -2,7 +2,7 @@
   "name": "brendan-mok",
   "version": "1.0.0",
   "engines": {
-    "node": "7.10.1",
+    "node": "7.10.1"
   },
   "main": "index.js",
   "scripts": {
